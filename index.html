@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+
+    <title>Birthday Poster</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="/Images/cropped-Juscall-Logo-2018-1.png" class="logo" alt="Company Logo">
+            </div>
+        </header>
+        <main>
+            <div class="content">
+                <h1> HAPPY <br> BIRTHDAY </h1>
+                <p class="greeting">We extend our warmest wishes for a year ahead filled with prosperity,
+                    good health, and joy. Just as we are dedicated to safeguarding your
+                    interests in insurance, may this year bring you the assurance of
+                    success and happiness.</p>
+                <div >
+                    <img src="Images/Untitled design (6).png" class="cupcake" alt="Cupcake">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="icons">
+                <p>Contact Us</p>
+                <ul>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a>
+        
+                    <a href="gmail.com" target="_blank"><i class="bx bxl-gmail"></i></a>
+        
+                    <a href="tweeter.com" targeat="_blank"><i class="bx bxl-twitter"></i></a>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Email: sample@email.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <br>
+                <p class="note">
+                    You received this message because you've registered or accepted our invitation to receive emails from Juscall Insurance Agency Inc., or you've made a purchase from Juscall Insurance Agency Inc.Please note: to stop receiving emails, click on the 
+                    <a href="mailto:olivacarl1109@gmail.com" target="_blank" class="unsubscribe-btn"
+                    >Unsubscribe</a>, and do not directly reply to this email, as this email was generated automatically and thus your unsubscription request will not be processed.
+                </p>
+            </div>
+        </footer>
+    </div>
+</body>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+  font-family: "poppins", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container
+{
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+header
+{
+  background-color: #468189;
+  color: #ffffff;
+  margin-bottom: 3px;
+  height: 80px;
+}
+
+.logo
+{
+  width: 150px;
+  height: 77px;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
+.content
+{
+  background-color: #9dbebb;
+  color: #468189;
+  padding: 30px;
+}
+
+h1
+{
+  animation: slideInLeft 2s ease-in-out;
+  font-size: 50px;
+  line-height: 0.85;
+  text-align: left;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.greeting
+{
+  font-size: 15px;
+  color: #468189;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.cupcake
+{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: -8px;
+  animation: slideInRight 2s ease-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+footer
+{
+  text-align: center;
+  padding: 5px;
+  background-color: #468189;
+  color: #ffffff;
+  margin-top: 3px; 
+}
+
+.icons
+{ 
+    .bxl-facebook 
+    {
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+
+    .bxl-gmail 
+    {
+        font-size: 30px;
+        color: #ffffff;
+        margin: 10px;
+    }
+
+    .bxl-twitter 
+    {
+        font-size: 30px;
+        color: #ffffff;
+    }
+}
+
+.unsubscribe-btn
+{
+    text-decoration: none;
+    color: #9dbebb;
+}
+
+.note
+{
+    font-size: 13px;
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) {
+  .container 
+  h1{
+  
+  animation: slideInLeft 2s ease-in-out;
+  font-size: 120px;
+  line-height: 0.85;
+  text-align: left;
+}
+}   
+
+
+</style>
+</html>
